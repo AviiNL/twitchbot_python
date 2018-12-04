@@ -5,7 +5,6 @@
 import sys
 import irc.bot
 import requests
-from commands.test import test
 
 class TwitchBot(irc.bot.SingleServerIRCBot):
     def __init__(self, username, token, channel):
