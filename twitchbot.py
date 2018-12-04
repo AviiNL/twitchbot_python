@@ -37,7 +37,7 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
 
     def do_command(self, e, cmd):
         module = __import__("commands")
-        if cmd is "command"
+        if cmd is "command":
             return
         
         if hasattr(module, cmd):
